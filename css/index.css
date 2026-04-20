@@ -59,6 +59,25 @@ footer{
     margin-top: 7px;
 }
 
+table {
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+    border-collapse: collapse;
+    background-color: whitesmoke;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+button {
+    background-color: green;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
 /* Para teléfonos móviles: */
 @media only screen and (max-width: 620px) {
     nav,
